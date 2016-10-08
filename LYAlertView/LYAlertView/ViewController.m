@@ -27,7 +27,7 @@
     LYAlertView *alertView = [[LYAlertView alloc] initWithTitle:@"提示" Message:@"是否确认删除" cancelButton:@"取消" confirmButton:@"确认"];
     
     // 无信息时置为nil
-//    LYAlertView *alertView = [[LYAlertView alloc] initWithTitle:@"提示" Message:nil cancelButton:nil confirmButton:@"确认"];
+//    LYAlertView *alertView = [[LYAlertView alloc] initWithTitle:nil Message:@"最多添加9张图片" cancelButton:nil confirmButton:@"知道了"];
     [alertView show];
     
     // 只有一个button时的操作
