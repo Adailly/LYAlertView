@@ -2,7 +2,7 @@
 快速实现自定义alertView
 
 初始化方法<br>
-`" 
+
     LYAlertView *alertView = [[LYAlertView alloc] initWithTitle:@"提示" Message:@"是否确认删除" cancelButton:@"取消" confirmButton:@"确认"];
     [alertView show];
     
