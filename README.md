@@ -14,9 +14,12 @@
     [alertView setConfirmBlock:^{
         NSLog(@"确认操作");
     }];
+    
+效果1<br>
+![效果1](https://github.com/HappyyardYang/LYAlertView/blob/master/LYAlertView/LYAlertView/Images/alertView2.gif)<br>
 
     // 无信息时置为nil
-    LYAlertView *alertView = [[LYAlertView alloc] initWithTitle:@"提示" Message:nil cancelButton:nil confirmButton:@"确认"];
+    LYAlertView *alertView = [[LYAlertView alloc] initWithTitle:@"最多添加9张照片" Message:nil cancelButton:nil confirmButton:@"确认"];
     [alertView show];
     // 只有一个button时的操作
     [alertView setCancelBlock:^{
@@ -24,7 +27,8 @@
     }];
 
 
-效果<br>
+效果2<br>
+![效果2](https://github.com/HappyyardYang/LYAlertView/blob/master/LYAlertView/LYAlertView/Images/alertView1.gif)
 
 
     
